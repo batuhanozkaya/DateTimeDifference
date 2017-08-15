@@ -1,8 +1,8 @@
 # DateTimeDifference
 
-Bu method ile iki zaman farkını milli saniye cinsinden hesaplayabilirsiniz. Çıktıları saniye, dakika, saat, gün, ay ve yıl şeklinde alabilirsiniz.
+You can calculate the difference in time in miliseconds using this method and get the outputs in seconds, minutes, hours, days, months and years. 
 
-Kullanımı oldukça basit
+* Simple to use
 
 ```
 long currentTime = System.currentTimeMillis();
@@ -10,13 +10,9 @@ long previousTime = (System.currentTimeMillis() - 864000000); //10 days ago
 
 Log.d("DateTime: ", "Difference With Second: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.SECOND));
 Log.d("DateTime: ", "Difference With Minute: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.MINUTE));
-Log.d("DateTime: ", "Difference With Hour: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.HOUR));
-Log.d("DateTime: ", "Difference With Day: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.DAY));
-Log.d("DateTime: ", "Difference With Month: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.MONTH));
-Log.d("DateTime: ", "Difference With Year: " + AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.YEAR));
 ```
 
-Aşağıda bulunan örnekteki gibi karşılaştırma yapabilirsiniz
+* You can compare the example below
 
 ```
 if(AppUtility.DateTimeDifference(currentTime, previousTime, AppUtility.TimeDifference.MINUTE) > 100){
