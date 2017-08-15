@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-compat-26.0.0-alpha1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/69b1b5c1e87e37e6f386138de4538b038ef4b51b/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/69b1b5c1e87e37e6f386138de4538b038ef4b51b/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Kullanicilar/sdk/extras/android/m2repository/com/android/support/support-compat/26.0.0-alpha1/support-compat-26.0.0-alpha1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
